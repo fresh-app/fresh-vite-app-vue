@@ -14,10 +14,10 @@ importers:
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
-        version: 5.2.1(vite@6.0.0)(vue@3.5.13)
+        version: 5.2.1(vite@6.0.1)(vue@3.5.13)
       vite:
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^6.0.1
+        version: 6.0.1
 
 packages:
 
@@ -358,8 +358,8 @@ packages:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
-  vite@6.0.0:
-    resolution: {integrity: sha512-Q2+5yQV79EdnpbNxjD3/QHVMCBaQ3Kpd4/uL51UGuh38bIIM+s4o3FqyCzRvTRwFb+cWIUeZvaWwS9y2LD2qeQ==}
+  vite@6.0.1:
+    resolution: {integrity: sha512-Ldn6gorLGr4mCdFnmeAOLweJxZ34HjKnDm4HGo6P66IEqTxQb36VEdFJQENKxWjupNfoIjvRUnswjn1hpYEpjQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -551,9 +551,9 @@ snapshots:
 
   '@types/estree@1.0.6': {}
 
-  '@vitejs/plugin-vue@5.2.1(vite@6.0.0)(vue@3.5.13)':
+  '@vitejs/plugin-vue@5.2.1(vite@6.0.1)(vue@3.5.13)':
     dependencies:
-      vite: 6.0.0
+      vite: 6.0.1
       vue: 3.5.13
 
   '@vue/compiler-core@3.5.13':
@@ -686,7 +686,7 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  vite@6.0.0:
+  vite@6.0.1:
     dependencies:
       esbuild: 0.24.0
       postcss: 8.4.49
