@@ -14,10 +14,10 @@ importers:
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.2.2
-        version: 5.2.3(vite@6.3.1)(vue@3.5.13)
+        version: 5.2.3(vite@6.3.2)(vue@3.5.13)
       vite:
         specifier: ^6.3.1
-        version: 6.3.1
+        version: 6.3.2
 
 packages:
 
@@ -390,8 +390,8 @@ packages:
     resolution: {integrity: sha512-qkf4trmKSIiMTs/E63cxH+ojC2unam7rJ0WrauAzpT3ECNTxGRMlaXxVbfxMUC/w0LaYk6jQ4y/nGR9uBO3tww==}
     engines: {node: '>=12.0.0'}
 
-  vite@6.3.1:
-    resolution: {integrity: sha512-kkzzkqtMESYklo96HKKPE5KKLkC1amlsqt+RjFMlX2AvbRB/0wghap19NdBxxwGZ+h/C6DLCrcEphPIItlGrRQ==}
+  vite@6.3.2:
+    resolution: {integrity: sha512-ZSvGOXKGceizRQIZSz7TGJ0pS3QLlVY/9hwxVh17W3re67je1RKYzFHivZ/t0tubU78Vkyb9WnHPENSBCzbckg==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -592,9 +592,9 @@ snapshots:
 
   '@types/estree@1.0.7': {}
 
-  '@vitejs/plugin-vue@5.2.3(vite@6.3.1)(vue@3.5.13)':
+  '@vitejs/plugin-vue@5.2.3(vite@6.3.2)(vue@3.5.13)':
     dependencies:
-      vite: 6.3.1
+      vite: 6.3.2
       vue: 3.5.13
 
   '@vue/compiler-core@3.5.13':
@@ -741,7 +741,7 @@ snapshots:
       fdir: 6.4.3(picomatch@4.0.2)
       picomatch: 4.0.2
 
-  vite@6.3.1:
+  vite@6.3.2:
     dependencies:
       esbuild: 0.25.2
       fdir: 6.4.3(picomatch@4.0.2)
